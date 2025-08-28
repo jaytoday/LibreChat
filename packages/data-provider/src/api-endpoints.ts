@@ -71,6 +71,8 @@ export const revokeUserKey = (name: string) => `${keysEndpoint}/${name}`;
 
 export const revokeAllUserKeys = () => `${keysEndpoint}?all=true`;
 
+export const provisionApiKey = () => `${keysEndpoint}/provision`;
+
 export const conversationsRoot = '/api/convos';
 
 export const conversations = (params: q.ConversationListParams) => {

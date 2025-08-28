@@ -152,5 +152,12 @@
       "admin/",
       "packages/"
     ]
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/uuid": "^10.0.0",
+    "crypto-js": "^4.2.0",
+    "idb": "^8.0.3",
+    "uuid": "^11.1.0"
   }
 }
